@@ -49,6 +49,41 @@ main{
     font-size: 56px;
     color: #0E0E0E;
 }
-/* .about{
-    padding: 80px 150px;
-} */
+/* skills style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+}
+.blue{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 24px;
+}
+.green{
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+}
+.yellow{
+    background-color: rgba(247, 235, 207, 1);
+    border-radius: 24px;
+}
+.btn-blue{
+    background-color: rgba(84, 144, 245, 1);
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+.btn-green{
+    background-color: rgba(9, 161, 92, 1);
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+.btn-yellow{
+    background-color: rgba(255, 194, 57, 1);
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
