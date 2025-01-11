@@ -87,3 +87,33 @@ main{
     border: none;
     color: white;
 }
+/* News */
+.news-card {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    /* padding: 20px; */
+    max-width: auto;
+    /* margin: 20px auto; */
+    align-items: center;
+}
+.news-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.news-description{
+    font-size: 16px;
+}
+.btn-news{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 10px 10px;
+
+}
