@@ -117,3 +117,164 @@ main{
     padding: 10px 10px;
 
 }
+/* Donate Section */
+.donate {
+    text-align: center;
+    background-color: #F9FAFB;
+    padding: 40px 20px;
+}
+
+.donate h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.donate p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Donate Options */
+.donate-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.donate-card {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.donate-card.active {
+    background-color: rgba(198, 228, 214, 1);
+    border-color: rgba(198, 228, 214, 1);
+    color: black;
+}
+
+.donate-card:hover {
+    background-color: #F1F1F1;
+    border-color: #CCC;
+}
+
+/* Input Field */
+.donate-input {
+    margin-top: 20px;
+    padding: 12px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 1rem;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.donate-input:focus {
+    border-color: #4CAF50;
+}
+
+/* Donate Button */
+.donate-button {
+    margin: 20px auto 0; /* Center the button and add spacing above */
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background-color: #2E7D32;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block; /* Ensure it takes up its own line */
+    max-width: 200px; /* Limit the button's width */
+}
+
+.donate-button:hover {
+    background-color: #1B5E20;
+}
+
+/* Newsletter Section */
+.newsletter {
+    background-color: rgba(198, 228, 214, 1);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.newsletter h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.newsletter p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.newsletter-form input {
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    outline: none;
+    width: 70%;
+    max-width: 400px;
+    transition: border-color 0.3s ease;
+}
+
+.newsletter-form input:focus {
+    border-color: #4CAF50;
+}
+
+.newsletter-form button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #2E7D32;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #1B5E20;
+}
+
+.newsletter-note {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 10px;
+}
+
+
+
